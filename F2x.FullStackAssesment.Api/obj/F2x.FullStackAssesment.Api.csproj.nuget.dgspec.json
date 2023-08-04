@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
+        "projectName": "F2x.FullStackAssesment.Api",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj"
+              },
+              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
+              },
+              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
+        "projectName": "F2x.FullStackAssesment.Core",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
+              },
+              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Serilog.Sinks.ApplicationInsights": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj",
+        "projectName": "F2x.FullStackAssesment.Domain",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj",
+        "projectName": "F2x.FullStackAssesment.Infraestructure",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

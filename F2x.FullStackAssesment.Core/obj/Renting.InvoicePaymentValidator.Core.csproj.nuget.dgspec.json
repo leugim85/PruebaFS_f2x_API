@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Core\\Renting.InvoicePaymentValidator.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Core\\Renting.InvoicePaymentValidator.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Core\\Renting.InvoicePaymentValidator.Core.csproj",
+        "projectName": "Renting.InvoicePaymentValidator.Core",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Core\\Renting.InvoicePaymentValidator.Core.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Domain\\Renting.InvoicePaymentValidator.Domain.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Domain\\Renting.InvoicePaymentValidator.Domain.csproj"
+              },
+              "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Infraestructure\\Renting.InvoicePaymentValidator.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Infraestructure\\Renting.InvoicePaymentValidator.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Serilog.Sinks.ApplicationInsights": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Domain\\Renting.InvoicePaymentValidator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Domain\\Renting.InvoicePaymentValidator.Domain.csproj",
+        "projectName": "Renting.InvoicePaymentValidator.Domain",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Domain\\Renting.InvoicePaymentValidator.Domain.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Infraestructure\\Renting.InvoicePaymentValidator.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Infraestructure\\Renting.InvoicePaymentValidator.Infraestructure.csproj",
+        "projectName": "Renting.InvoicePaymentValidator.Infraestructure",
+        "projectPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Infraestructure\\Renting.InvoicePaymentValidator.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.urrego\\source\\repos\\ValidadorPagosFacturaApi\\Renting.InvoicePaymentValidator.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

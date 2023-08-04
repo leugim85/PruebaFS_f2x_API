@@ -1,0 +1,14 @@
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.deps.json
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.runtimeconfig.json
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.pdb
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.csproj.AssemblyReference.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.AssemblyInfoInputs.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.AssemblyInfo.cs
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\refint\Renting.InvoicePaymentValidator.Domain.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.pdb
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Domain.genruntimeconfig.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Domain\obj\Debug\net7.0\ref\Renting.InvoicePaymentValidator.Domain.dll

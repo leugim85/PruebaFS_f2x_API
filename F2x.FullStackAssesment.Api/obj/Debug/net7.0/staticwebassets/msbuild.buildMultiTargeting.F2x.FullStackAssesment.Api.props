@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\F2x.FullStackAssesment.Api.props" />
+</Project>

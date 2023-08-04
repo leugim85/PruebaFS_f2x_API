@@ -1,0 +1,16 @@
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\bin\Debug\net7.0\libwkhtmltox.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\bin\Debug\net7.0\libwkhtmltox.so
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.deps.json
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\bin\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.pdb
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.Resources.Messages.resources
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.csproj.GenerateResource.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.AssemblyInfo.cs
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\refint\Renting.InvoicePaymentValidator.Infraestructure.dll
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\Renting.InvoicePaymentValidator.Infraestructure.pdb
+C:\Users\miguel.urrego\source\repos\ValidadorPagosFacturaApi\Renting.InvoicePaymentValidator.Infraestructure\obj\Debug\net7.0\ref\Renting.InvoicePaymentValidator.Infraestructure.dll

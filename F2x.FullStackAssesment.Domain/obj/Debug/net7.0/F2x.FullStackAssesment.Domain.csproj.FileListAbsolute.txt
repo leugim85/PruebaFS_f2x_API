@@ -1,0 +1,14 @@
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\bin\Debug\net7.0\F2x.FullStackAssesment.Domain.deps.json
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\bin\Debug\net7.0\F2x.FullStackAssesment.Domain.runtimeconfig.json
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\bin\Debug\net7.0\F2x.FullStackAssesment.Domain.dll
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\bin\Debug\net7.0\F2x.FullStackAssesment.Domain.pdb
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.csproj.AssemblyReference.cache
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.AssemblyInfoInputs.cache
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.AssemblyInfo.cs
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.dll
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\refint\F2x.FullStackAssesment.Domain.dll
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.pdb
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\F2x.FullStackAssesment.Domain.genruntimeconfig.cache
+C:\Users\miguel.urrego\source\f2x\F2x.FullStackAssesment\F2x.FullStackAssesment.Domain\obj\Debug\net7.0\ref\F2x.FullStackAssesment.Domain.dll
