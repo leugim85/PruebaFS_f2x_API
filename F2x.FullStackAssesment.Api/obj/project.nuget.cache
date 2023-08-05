@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SWpdDQIoBtHhcLr2NA2zYKqkoO3OKa0/pOmetr5FAX7O4kLjj/JlOUHG5WidWsIBECiqRQPgTeUIkqhvBclooQ==",
+  "dgSpecHash": "P2W3Vya3mzQUGknR17ujhQoY2dzr+7VtDfGsXAdaGlp0CN/HmEeVKnW4NAw8zgBhd1ZqlMjs1FdaA0mSjhK5kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
   "expectedPackageFiles": [
@@ -11,9 +11,7 @@
     "C:\\Users\\migo8\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.core\\1.31.0\\azure.core.1.31.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\azure.messaging.servicebus\\7.12.0\\azure.messaging.servicebus.7.12.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.storage.blobs\\12.16.0\\azure.storage.blobs.12.16.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.storage.common\\12.15.0\\azure.storage.common.12.15.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512",
@@ -38,7 +36,6 @@
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.1.1\\microsoft.aspnetcore.webutilities.2.1.1.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\microsoft.azure.amqp\\2.6.1\\microsoft.azure.amqp.2.6.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.build.framework\\17.3.2\\microsoft.build.framework.17.3.2.nupkg.sha512",

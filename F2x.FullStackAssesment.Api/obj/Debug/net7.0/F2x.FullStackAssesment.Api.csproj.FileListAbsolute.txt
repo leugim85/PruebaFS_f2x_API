@@ -347,9 +347,7 @@ C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Azure.Core.Amqp.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Azure.Storage.Blobs.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Azure.Storage.Common.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Enums.NET.dll
@@ -366,7 +364,6 @@ C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.Build.dll
 C:\Users\migo8\Desktop\f2x\PruebaFS_f2x_API\F2x.FullStackAssesment.Api\bin\Debug\net7.0\Microsoft.Build.Framework.dll

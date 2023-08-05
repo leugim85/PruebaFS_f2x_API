@@ -20,8 +20,8 @@ namespace F2xFullStackAssesment.Api.Controllers
         }
 
         [HttpGet("GetVehicleCounterInformation")]
-        [Produces(typeof(VehiclesCounterCollectedPaginated))]
-        public async Task<ActionResult<VehiclesCounterCollectedPaginated>> GetInvoiceInformation([FromQuery] string station)
+        [Produces(typeof(GeneralSummaryDto))]
+        public async Task<ActionResult<GeneralSummaryDto>> GetInvoiceInformation([FromQuery] string station)
         {
             return Ok(await vehicleCountService.GetSummary(station));
         }          

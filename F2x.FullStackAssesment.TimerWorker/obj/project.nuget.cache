@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zFJnLB+Hno36926El6NoD/cHl6Y5KBdSwEHFGwhOPZG+AzgaRqtD1YJArNML5+M6koTJhQuU4ONCGSqlim79vQ==",
+  "dgSpecHash": "q+aV19rmrK5asCrw//nC2PTKZgIwFeWkWWOJ0giRu5/3XDpL0JGIgd0H5gGQ6LMKr5+xeYWXtu9jMUUIVicJQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.TimerWorker\\F2x.FullStackAssesment.TimerWorker.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,7 @@
     "C:\\Users\\migo8\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.core\\1.31.0\\azure.core.1.31.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\azure.messaging.servicebus\\7.12.0\\azure.messaging.servicebus.7.12.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.storage.blobs\\12.16.0\\azure.storage.blobs.12.16.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.storage.common\\12.15.0\\azure.storage.common.12.15.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512",
@@ -23,7 +21,6 @@
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.applicationinsights.windowsserver\\2.21.0\\microsoft.applicationinsights.windowsserver.2.21.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.applicationinsights.windowsserver.telemetrychannel\\2.21.0\\microsoft.applicationinsights.windowsserver.telemetrychannel.2.21.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.applicationinsights.workerservice\\2.21.0\\microsoft.applicationinsights.workerservice.2.21.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\microsoft.azure.amqp\\2.6.1\\microsoft.azure.amqp.2.6.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

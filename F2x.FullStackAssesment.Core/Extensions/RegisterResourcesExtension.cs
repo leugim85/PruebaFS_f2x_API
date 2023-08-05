@@ -1,6 +1,4 @@
 ﻿using Autofac;
-using Azure.Messaging.ServiceBus;
-using Azure.Storage.Blobs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using F2xFullStackAssesment.Core.Helpers;

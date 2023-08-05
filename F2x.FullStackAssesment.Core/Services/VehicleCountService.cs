@@ -66,7 +66,7 @@ namespace F2x.FullStackAssesment.Core.Services
                             throttler.Release(); 
                         }
                     }));
-                    await Task.Delay(TimeSpan.FromSeconds(10));
+                    await Task.Delay(TimeSpan.FromSeconds(2));
                 }
                 await Task.WhenAll(tasks);
             }
@@ -81,9 +81,9 @@ namespace F2x.FullStackAssesment.Core.Services
         public async Task<GeneralSummaryDto> GetSummary(string station)
         {
             List<Expression<Func<VehicleCounterInformation, bool>>> filters = ValidatePredicateGetCollectedvehicleCounter(station);
-            GeneralSummaryDto items = await GetSummary(filters);
+            GeneralSummaryDto summary = await GetSummary(filters);
 
-            return new GeneralSummaryDto();
+            return summary;
         }
 
         public async Task<DateOnly> GetLastDate()
@@ -199,17 +199,34 @@ namespace F2x.FullStackAssesment.Core.Services
         {
             List<StationSummaryDto> stationSummaryDto = new List<StationSummaryDto>();
             var resultGrouped = result.GroupBy(i => i.Item1.Station);
+            var stationSummary = new StationSummaryDto();
             foreach ( var item in resultGrouped)
             {
-                var stationSummary = new StationSummaryDto();
                 stationSummary.Station = item.Key;
                 stationSummary.TotalAmount = 1;
                 stationSummary.VehicleCount = 2;
-                stationSummary.SummaryByDates = new List<SummaryByDateDto>(); 
-                
+                stationSummary.SummaryByDates = GetSummaryByDate(item);
+
+
                 stationSummaryDto.Add(stationSummary);
             }
             return stationSummaryDto;
+        }
+
+        private List<SummaryByDateDto> GetSummaryByDate(IGrouping<string,(VehicleCounterInformation, double)> items) 
+        {
+            List<SummaryByDateDto> summaryByDateList = new List<SummaryByDateDto>();
+            var summaryByDate = new SummaryByDateDto();
+            foreach ( var item in items)
+            {
+                summaryByDate.VehicleCountByDate = 0;
+                summaryByDate.TotalAmountByDate = 0;
+                summaryByDate.Date =new  DateOnly(2023,08,04);
+
+                summaryByDateList.Add(summaryByDate);
+            }
+
+            return summaryByDateList.ToList();
         }
 
         private async Task<List<string>> GetPendingDates()

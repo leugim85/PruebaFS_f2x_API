@@ -83,17 +83,6 @@
           }
         }
       },
-      "Azure.Core.Amqp/1.2.0": {
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Azure.Core.Amqp.dll": {
-            "assemblyVersion": "1.2.0.0",
-            "fileVersion": "1.200.21.35604"
-          }
-        }
-      },
       "Azure.Identity/1.6.0": {
         "dependencies": {
           "Azure.Core": "1.31.0",
@@ -108,21 +97,6 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
-          }
-        }
-      },
-      "Azure.Messaging.ServiceBus/7.12.0": {
-        "dependencies": {
-          "Azure.Core": "1.31.0",
-          "Azure.Core.Amqp": "1.2.0",
-          "Microsoft.Azure.Amqp": "2.6.1",
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "System.Memory.Data": "1.0.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Azure.Messaging.ServiceBus.dll": {
-            "assemblyVersion": "7.12.0.0",
-            "fileVersion": "7.1200.23.6203"
           }
         }
       },
@@ -255,14 +229,6 @@
           "lib/netstandard2.0/Microsoft.ApplicationInsights.WorkerService.dll": {
             "assemblyVersion": "2.21.0.429",
             "fileVersion": "2.21.0.429"
-          }
-        }
-      },
-      "Microsoft.Azure.Amqp/2.6.1": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Azure.Amqp.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.2.0.0"
           }
         }
       },
@@ -1239,7 +1205,6 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Autofac": "7.0.1",
-          "Azure.Messaging.ServiceBus": "7.12.0",
           "Azure.Storage.Blobs": "12.16.0",
           "F2x.FullStackAssesment.Domain": "1.0.0",
           "F2x.FullStackAssesment.Infraestructure": "1.0.0",
@@ -1317,26 +1282,12 @@
       "path": "azure.core/1.31.0",
       "hashPath": "azure.core.1.31.0.nupkg.sha512"
     },
-    "Azure.Core.Amqp/1.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vrF4isvhwdZspzorLwYhukXz3DA8/ONSnZUIBAqBtOCzsDNUgAsuILbCzvtDrn2oDxyq7DZx5Nh81pe0BeWmDQ==",
-      "path": "azure.core.amqp/1.2.0",
-      "hashPath": "azure.core.amqp.1.2.0.nupkg.sha512"
-    },
     "Azure.Identity/1.6.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
-    },
-    "Azure.Messaging.ServiceBus/7.12.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-PWD5VVcWMQ1W5XJK8hejsQv6nxbIdof6tl8gL7E2n8rMTKEv7ZGZYJYguWu9mtMBWrNpOsjcP9EtEIU1MQhGNw==",
-      "path": "azure.messaging.servicebus/7.12.0",
-      "hashPath": "azure.messaging.servicebus.7.12.0.nupkg.sha512"
     },
     "Azure.Storage.Blobs/12.16.0": {
       "type": "package",
@@ -1414,13 +1365,6 @@
       "sha512": "sha512-Y/KcaQf+Jy92vdHTd2P8zoaW/IIUl4VkzGkvmBqi1IFQ0JXR4f6LXB73/2GMGhWMc7+QMVHeqW0QDjbLU6Fw5g==",
       "path": "microsoft.applicationinsights.workerservice/2.21.0",
       "hashPath": "microsoft.applicationinsights.workerservice.2.21.0.nupkg.sha512"
-    },
-    "Microsoft.Azure.Amqp/2.6.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yWnawf7MD/PUNzvLcVkWN0s4kQT3+CUy4sP19CmBnyFX5Uy/CCRC0M6Amkl1p8bn9yht1oSLu+m8d6nc9DLJoA==",
-      "path": "microsoft.azure.amqp/2.6.1",
-      "hashPath": "microsoft.azure.amqp.2.6.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lQbqq21Ukhw0QcOcSBpxVZnjAun98W+3jl8b/IvnUSJATMtAItnn5UTG89SPYM6iXl/EhwMtjwLtSuo1QckJAQ==",
+  "dgSpecHash": "6CkmnZbY6Eok51s/w6Pj4QDUz3F25nWX+AJD8DEhxIAkqdKtkEAQJYy2WVnufey/ckcSowXVEiDadgsOn70o6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
   "expectedPackageFiles": [
@@ -8,15 +8,12 @@
     "C:\\Users\\migo8\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.core\\1.31.0\\azure.core.1.31.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\azure.messaging.servicebus\\7.12.0\\azure.messaging.servicebus.7.12.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.storage.blobs\\12.16.0\\azure.storage.blobs.12.16.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\azure.storage.common\\12.15.0\\azure.storage.common.12.15.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\mathnet.numerics.signed\\4.15.0\\mathnet.numerics.signed.4.15.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.applicationinsights\\2.20.0\\microsoft.applicationinsights.2.20.0.nupkg.sha512",
-    "C:\\Users\\migo8\\.nuget\\packages\\microsoft.azure.amqp\\2.6.1\\microsoft.azure.amqp.2.6.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\migo8\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
