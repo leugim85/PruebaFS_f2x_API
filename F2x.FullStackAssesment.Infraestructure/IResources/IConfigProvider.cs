@@ -21,7 +21,6 @@ namespace F2xFullStackAssesment.Infraestructure.IResources
         #endregion
 
 
-        List<int> ExecutionDays { get; }
-        string ExecutionHour { get; }
+          string ExecutionHour { get; }
     }
 }

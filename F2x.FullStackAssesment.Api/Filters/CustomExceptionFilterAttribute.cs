@@ -55,14 +55,6 @@ namespace F2xFullStackAssesment.Api.Filters
                     errorMessage = string.Format(CultureInfo.InvariantCulture, "{0}", entityNotFoundException.Message);
                     hashCode = HttpStatusCode.NotFound.GetHashCode();
                     break;
-                case InvoiceCollectedConflictException invoiceCollectedConflictException:
-                    errorMessage = string.Format(CultureInfo.InvariantCulture, "{0}", invoiceCollectedConflictException.Message);
-                    hashCode = HttpStatusCode.Conflict.GetHashCode();
-                    break;
-                case PhotoFineDocumentConflictException photoFineDocumentConflictException:
-                    errorMessage = string.Format(CultureInfo.InvariantCulture, "{0}", photoFineDocumentConflictException.Message);
-                    hashCode = HttpStatusCode.Conflict.GetHashCode();
-                    break;
                 default:
                     errorMessage = string.IsNullOrWhiteSpace(context.Exception?.InnerException?.Message) ? context.Exception.Message : context.Exception.InnerException.Message;
                     hashCode = HttpStatusCode.InternalServerError.GetHashCode();

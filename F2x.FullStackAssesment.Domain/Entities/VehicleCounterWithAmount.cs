@@ -1,10 +1,6 @@
 ﻿using F2xF2xFullStackAssesment.Domain.Entities;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace F2x.FullStackAssesment.Domain.Entities
 {

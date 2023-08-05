@@ -55,7 +55,6 @@ namespace F2xFullStackAssesment.Infraestructure.Resources
         public string VehiclesCounterValuePath => $"{BasePath}{_configuration.GetSection("ApiService:ResourcePath:CounterValue").Value}";
         #endregion
 
-        public List<int> ExecutionDays => _configuration.GetSection($"ExecutionDays").Get<List<int>>();
         public string ExecutionHour => _configuration.GetSection($"ExecutionHour").Value;
 
     }

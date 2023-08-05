@@ -28,7 +28,6 @@ namespace F2xFullStackAssesment.Core.Extensions
 
             builder.RegisterType<ConfigProvider>().As<IConfigProvider>();
             builder.RegisterType<Resource>().As<IResource>();
-            builder.RegisterType<MessagesProvider>().As<IMessagesProvider>();
             builder.RegisterType<MicroClientHelper>().As<IMicroClientHelper>();
 
         }

@@ -6,11 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
-using F2xFullStackAssesment.Api.Authentication;
 using F2xFullStackAssesment.Api.Filters;
-using System.Collections.Generic;
 using System.IO;
-using F2xF2xFullStackAssesment.Api.Authentication;
 using F2xFullStackAssesment.Core.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,11 +44,6 @@ builder.Services.AddCors(opt =>
     });
 });
 
-//B2C Authentication
-//builder.Services.AddSingleton<IAzureB2CKeyValidation>(new AzureB2CKeyValidation(configuration));
-//builder.Services.AddB2CAuthentication(configuration);
-
-//register Services
 builder.Services.AddServices(configuration);
 
 builder.Services.AddControllers(opt =>
@@ -70,34 +62,7 @@ builder.Services.AddSwaggerGen(setupAction =>
         Version = "V1",
         Title = "F2xFullStackAssesment.Api",
         Description = "Servicios Rest del proyecto Prueba FullStack"
-    });
-
-    //setupAction.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    //{
-    //    In = ParameterLocation.Header,
-    //    Description = "Por favor ingrese su JWT con Bearer en el campo",
-    //    Name = "Authorization",
-    //    Type = SecuritySchemeType.ApiKey,
-    //    Scheme = "Bearer"
-    //});
-
-    //setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
-    //            {
-    //                {
-    //                    new OpenApiSecurityScheme
-    //                    {
-    //                        Reference = new OpenApiReference
-    //                        {
-    //                            Type = ReferenceType.SecurityScheme,
-    //                            Id = "Bearer"
-    //                        },
-    //                        Scheme = "oauth2",
-    //                        Name = "Bearer",
-    //                        In = ParameterLocation.Header
-    //                    },
-    //                    new List<string>()
-    //                }
-    //            });
+    });   
 
     setupAction.CustomSchemaIds(schema => schema.FullName);
 });
@@ -134,4 +99,3 @@ app.MapControllers();
 app.Run();
 
 public partial class Program { }
-

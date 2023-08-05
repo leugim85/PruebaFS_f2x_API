@@ -9,7 +9,7 @@ namespace F2x.FullStackAssesment.Core.IServices
     public interface IVehicleCountService
     {
         Task ProcessdataFromCounterApi();
-        Task<VehiclesCounterCollectedPaginated> GetDataVehicleCounterPaginated(VehiclesInformationPaginatedDto vehiclesInformationPaginated);
+        Task<GeneralSummaryDto> GetSummary(string station);
         Task<DateOnly> GetLastDate();
     }
 }

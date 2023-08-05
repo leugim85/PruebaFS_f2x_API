@@ -19,11 +19,11 @@ namespace F2xFullStackAssesment.Api.Controllers
             this.vehicleCountService = vehicleCountService;
         }
 
-        [HttpPost("GetVehicleCounterInformation")]
+        [HttpGet("GetVehicleCounterInformation")]
         [Produces(typeof(VehiclesCounterCollectedPaginated))]
-        public async Task<ActionResult<VehiclesCounterCollectedPaginated>> GetInvoiceInformation([FromBody] VehiclesInformationPaginatedDto request)
+        public async Task<ActionResult<VehiclesCounterCollectedPaginated>> GetInvoiceInformation([FromQuery] string station)
         {
-            return Ok(await vehicleCountService.GetDataVehicleCounterPaginated(request));
+            return Ok(await vehicleCountService.GetSummary(station));
         }          
     }
 }

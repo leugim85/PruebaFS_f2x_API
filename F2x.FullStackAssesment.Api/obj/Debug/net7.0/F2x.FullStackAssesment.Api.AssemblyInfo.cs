@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("393e8eed-f7c9-4b0b-bc52-9b6d47b86eb7")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("F2x.FullStackAssesment.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

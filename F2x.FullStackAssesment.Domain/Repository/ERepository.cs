@@ -29,52 +29,26 @@ namespace F2xFullStackAssesment.Domain.Repository
             return await BuildQuery(filter, orderBy, includeProperties).ToListAsync().ConfigureAwait(false);
         }
 
-        public async Task<IEnumerable<TEntity>> GetAllPagedAsync(
-            int take,
-            int skip,
-            Expression<Func<TEntity, bool>> filter = null,
-            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
-            string includeProperties = "")
-        {
-            return await BuildQuery(filter, orderBy, includeProperties).Skip(skip).Take(take).ToListAsync().ConfigureAwait(false);
-        }
-
-        public async Task<IEnumerable<TEntity>> GetAllPagedAsync(
-            int take,
-            int skip,
+        public async Task<IEnumerable<TEntity>> GetAllAsyncWithFilters(
             List<Expression<Func<TEntity, bool>>> filters = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
             string includeProperties = "")
         {
-            return await BuildQuery(filters, orderBy, includeProperties).Skip(skip).Take(take).ToListAsync().ConfigureAwait(false);
+            return await BuildQuery(filters, orderBy, includeProperties).ToListAsync().ConfigureAwait(false);
         }
 
-
-
-        public async Task<int> CountAsync(Expression<Func<TEntity, bool>> filter = null)
+        public async Task<List<TEntity>> FindByAlternateKeyAsync(Expression<Func<TEntity, bool>> alternateKey, string includeProperties = "")
         {
-            return await BuildQuery(filter).CountAsync();
+            var entity = unitOfWork.GetSet<TEntity, TId>().AsNoTracking();
+
+            includeProperties.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList().ForEach(property =>
+            {
+                entity = entity.Include(property.Trim());
+            });
+
+            var result = await entity.Where(alternateKey).ToListAsync();
+            return result;
         }
-
-        public async Task<int> CountAsync(List<Expression<Func<TEntity, bool>>> filters = null)
-        {
-            return await BuildQuery(filters).CountAsync();
-        }
-
-        public bool Any(Expression<Func<TEntity, bool>> filter = null)
-        {
-            var item = unitOfWork.GetSet<TEntity, TId>().AsNoTracking();
-            return filter == null ? item.Any() : item.Any(filter);
-        }
-
-        public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> filter = null)
-        {
-            var item = unitOfWork.GetSet<TEntity, TId>().AsNoTracking();
-            return filter == null ? await item.AnyAsync().ConfigureAwait(false) : await item.AnyAsync(filter).ConfigureAwait(false);
-        }
-
-
-
         public async Task AddAsync(TEntity entity)
         {
             ValidateEntity(entity);
@@ -112,11 +86,10 @@ namespace F2xFullStackAssesment.Domain.Repository
                 await unitOfWork.CommitAsync().ConfigureAwait(false);
             }
         }
-
-
-
-
-
+        public async Task<int> CountAsync(List<Expression<Func<TEntity, bool>>> filters = null)
+        {
+            return await BuildQuery(filters).CountAsync();
+        }
 
         #region PrivateMethods
         private IQueryable<TEntity> BuildQuery(

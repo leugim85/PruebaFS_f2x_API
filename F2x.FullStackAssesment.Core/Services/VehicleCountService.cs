@@ -25,7 +25,6 @@ namespace F2x.FullStackAssesment.Core.Services
         private readonly IVehicleCounterRepository vehicleCounterRepository;
         private readonly IVehicleCounterQueryHistoryRepository vehicleCounterQueryHistoryRepository;
         private readonly IVehicleCounterWithAmountRepository vehicleCounterWithAmountRepository;
-        private readonly IMessagesProvider messagesProvider;
         private readonly IMapper mapper;
 
         const int maxConcurrency = 2;
@@ -35,12 +34,10 @@ namespace F2x.FullStackAssesment.Core.Services
             IVehicleCounterRepository vehicleCounterRepository,
             IVehicleCounterQueryHistoryRepository vehicleCounterQueryHistoryRepository,
             IVehicleCounterWithAmountRepository vehicleCounterWithAmountRepository,
-            IMessagesProvider messagesProvider,
             IMapper mapper)
         {
             this.microClientHelper = microClientHelper;
             this.configProvider = configProvider;
-            this.messagesProvider = messagesProvider;
             this.vehicleCounterRepository = vehicleCounterRepository;
             this.vehicleCounterQueryHistoryRepository = vehicleCounterQueryHistoryRepository;
             this.vehicleCounterWithAmountRepository = vehicleCounterWithAmountRepository;
@@ -81,13 +78,12 @@ namespace F2x.FullStackAssesment.Core.Services
             SaveDataVehicleCounterWithAmount(date, token).GetAwaiter();
         }
 
-        public async Task<VehiclesCounterCollectedPaginated> GetDataVehicleCounterPaginated(VehiclesInformationPaginatedDto vehiclesInformationPaginated)
+        public async Task<GeneralSummaryDto> GetSummary(string station)
         {
-            int skip = (vehiclesInformationPaginated.PageNumber - 1) * vehiclesInformationPaginated.Take;
-            List<Expression<Func<VehicleCounterInformation, bool>>> filters = ValidatePredicateGetCollectedvehicleCounter(vehiclesInformationPaginated.Station, vehiclesInformationPaginated.StartDate, vehiclesInformationPaginated.EndtDate);
-            List<VehiclesCounterDataDto> items = (await GetAllPagedAsync(vehiclesInformationPaginated.Take, skip, filters)).ToList();
-            int totalRows = await CountAsync(filters);
-            return new VehiclesCounterCollectedPaginated(vehiclesInformationPaginated.PageNumber, vehiclesInformationPaginated.Take, totalRows, items);
+            List<Expression<Func<VehicleCounterInformation, bool>>> filters = ValidatePredicateGetCollectedvehicleCounter(station);
+            GeneralSummaryDto items = await GetSummary(filters);
+
+            return new GeneralSummaryDto();
         }
 
         public async Task<DateOnly> GetLastDate()
@@ -141,7 +137,7 @@ namespace F2x.FullStackAssesment.Core.Services
             vehicleCounterQueryHistoryRepository.AddAsync(vehicleCounterQueryHistory).GetAwaiter();
         }
 
-        private List<Expression<Func<VehicleCounterInformation, bool>>> ValidatePredicateGetCollectedvehicleCounter(string station, DateTime? startDate, DateTime? endDate)
+        private List<Expression<Func<VehicleCounterInformation, bool>>> ValidatePredicateGetCollectedvehicleCounter(string station)
         {
             List<Expression<Func<VehicleCounterInformation, bool>>> filters = new List<Expression<Func<VehicleCounterInformation, bool>>>();
 
@@ -150,34 +146,75 @@ namespace F2x.FullStackAssesment.Core.Services
                 Expression<Func<VehicleCounterInformation, bool>> predicate = x => x.Station.Contains(station);
                 filters.Add(predicate);
             }
-            if (!(startDate is null))
+            
+            return filters;
+        }
+
+        private async Task<GeneralSummaryDto> GetSummary(
+        List<Expression<Func<VehicleCounterInformation, bool>>> filters = null,
+        Func<IQueryable<VehicleCounterInformation>, IOrderedQueryable<VehicleCounterInformation>> orderBy = null,
+          string includeProperties = "")
+        {
+            GeneralSummaryDto generalSummary = new GeneralSummaryDto();
+
+            var result = await vehicleCounterRepository.GetAllAsyncWithFilters(filters, orderBy, includeProperties);
+            List<(VehicleCounterInformation item, double amount)> mergeItems = new List<(VehicleCounterInformation, double)>();
+            foreach ( var item in result ) 
             {
-                Expression<Func<VehicleCounterInformation, bool>> predicate = x => x.Date >= startDate;
+                List<Expression<Func<VehicleCounterWithAmount, bool>>> filtersForAmount = ValidatePredicateGetCollectedvehicleAmount(item.Station,item.Hour, item.Date);
+               var temporalIems= await vehicleCounterWithAmountRepository.GetAllAsyncWithFilters(filtersForAmount);
+               mergeItems.Add((item,temporalIems.Sum(t => t.Amount)));                  
+            }
+            generalSummary.TotalCarsGeneral = result.Sum(i => i.Quantity);
+            generalSummary.TotalAmountGeneral = mergeItems.Sum(i => i.amount);
+            generalSummary.VehicleCounterSummaryList = GetStationSummary(mergeItems);
+
+            return generalSummary;
+        }
+
+        private List<Expression<Func<VehicleCounterWithAmount, bool>>> ValidatePredicateGetCollectedvehicleAmount(string station, string? hour, DateTime? date)
+        {
+            List<Expression<Func<VehicleCounterWithAmount, bool>>> filters = new List<Expression<Func<VehicleCounterWithAmount, bool>>>();
+
+            if (!string.IsNullOrEmpty(station))
+            {
+                Expression<Func<VehicleCounterWithAmount, bool>> predicate = x => x.Station.Contains(station);
                 filters.Add(predicate);
             }
-            if (!(endDate is null))
+            if (!(date is null))
             {
-                Expression<Func<VehicleCounterInformation, bool>> predicate = x => x.Date <= endDate;
+                Expression<Func<VehicleCounterWithAmount, bool>> predicate = x => x.Date.Equals(date);
+                filters.Add(predicate);
+            }
+            if (!(hour is null))
+            {
+                Expression<Func<VehicleCounterWithAmount, bool>> predicate = x => x.Hour.Equals(hour);
                 filters.Add(predicate);
             }
 
             return filters;
         }
 
-        private async Task<IEnumerable<VehiclesCounterDataDto>> GetAllPagedAsync(
-        int take,
-        int skip,
-        List<Expression<Func<VehicleCounterInformation, bool>>> filters = null,
-        Func<IQueryable<VehicleCounterInformation>, IOrderedQueryable<VehicleCounterInformation>> orderBy = null,
-          string includeProperties = "")
+        private List<StationSummaryDto> GetStationSummary(List<(VehicleCounterInformation, double)> result) 
         {
-            return mapper.Map<IEnumerable<VehiclesCounterDataDto>>(await vehicleCounterRepository.GetAllPagedAsync(take, skip, filters, orderBy, includeProperties));
+            List<StationSummaryDto> stationSummaryDto = new List<StationSummaryDto>();
+            var resultGrouped = result.GroupBy(i => i.Item1.Station);
+            foreach ( var item in resultGrouped)
+            {
+                var stationSummary = new StationSummaryDto();
+                stationSummary.Station = item.Key;
+                stationSummary.TotalAmount = 1;
+                stationSummary.VehicleCount = 2;
+                stationSummary.SummaryByDates = new List<SummaryByDateDto>(); 
+                
+                stationSummaryDto.Add(stationSummary);
+            }
+            return stationSummaryDto;
         }
 
         private async Task<List<string>> GetPendingDates()
         {
             var lastDate = await GetLastDate();
-            //var lastDate = new DateOnly(2021,07,31);
 
             lastDate = lastDate.AddDays(1);
             string CustomFormatDate = "yyyy-MM-dd";

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj": {}
+    "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj": {
+    "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
+        "projectUniqueName": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
         "projectName": "F2x.FullStackAssesment.Api",
-        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
-        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Api\\obj\\",
+        "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Api\\F2x.FullStackAssesment.Api.csproj",
+        "packagesPath": "C:\\Users\\migo8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migo8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,21 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj": {
-                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj"
+              "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj": {
+                "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj"
               },
-              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
-                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
+              "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+                "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
               },
-              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj"
+              "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj"
               }
             }
           }
@@ -121,24 +120,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj": {
+    "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
+        "projectUniqueName": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
         "projectName": "F2x.FullStackAssesment.Core",
-        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
-        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Core\\obj\\",
+        "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\F2x.FullStackAssesment.Core.csproj",
+        "packagesPath": "C:\\Users\\migo8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migo8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -147,18 +146,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
-                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
+              "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+                "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
               },
-              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj"
+              "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj"
               }
             }
           }
@@ -230,24 +228,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+    "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj",
         "projectName": "F2x.FullStackAssesment.Domain",
-        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj",
-        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\obj\\",
+        "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj",
+        "packagesPath": "C:\\Users\\migo8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migo8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -256,7 +254,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -316,24 +313,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
+    "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj",
         "projectName": "F2x.FullStackAssesment.Infraestructure",
-        "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\miguel.urrego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\F2x.FullStackAssesment.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\migo8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.urrego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migo8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -342,15 +339,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
-                "projectPath": "C:\\Users\\miguel.urrego\\source\\f2x\\F2x.FullStackAssesment\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
+              "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj": {
+                "projectPath": "C:\\Users\\migo8\\Desktop\\f2x\\PruebaFS_f2x_API\\F2x.FullStackAssesment.Domain\\F2x.FullStackAssesment.Domain.csproj"
               }
             }
           }
@@ -394,7 +390,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
