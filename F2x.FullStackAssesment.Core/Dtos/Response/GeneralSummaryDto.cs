@@ -18,7 +18,7 @@ namespace F2x.FullStackAssesment.Core.Dtos.Response
     public class StationSummaryDto
     {
         public string Station { get; set; }
-        public int TotalAmount { get; set; }
+        public double TotalAmount { get; set; }
         public int VehicleCount { get; set;}
 
         public List<SummaryByDateDto> SummaryByDates { get; set; } = new List<SummaryByDateDto>();
@@ -26,7 +26,7 @@ namespace F2x.FullStackAssesment.Core.Dtos.Response
 
     public class SummaryByDateDto
     {
-        public int TotalAmountByDate { get; set; }
+        public double TotalAmountByDate { get; set; }
 
         public int VehicleCountByDate { get; set; }
 
