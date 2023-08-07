@@ -81,7 +81,7 @@ namespace F2x.FullStackAssesment.Core.Services
         public async Task<GeneralSummaryDto> GetSummary(string station)
         {
             List<Expression<Func<VehicleCounterInformation, bool>>> filters = ValidatePredicateGetCollectedvehicleCounter(station);
-            GeneralSummaryDto summary = await GetSummary(filters);
+            GeneralSummaryDto summary = await GetSummaryProccesed(filters, null, string.Empty, station);
 
             return summary;
         }
@@ -150,19 +150,33 @@ namespace F2x.FullStackAssesment.Core.Services
             return filters;
         }
 
-        private async Task<GeneralSummaryDto> GetSummary(
+        private List<Expression<Func<VehicleCounterWithAmount, bool>>> ValidatePredicateGetCollectedAllVehicleWithAmount(string station)
+        {
+            List<Expression<Func<VehicleCounterWithAmount, bool>>> filters = new List<Expression<Func<VehicleCounterWithAmount, bool>>>();
+
+            if (!string.IsNullOrEmpty(station))
+            {
+                Expression<Func<VehicleCounterWithAmount, bool>> predicate = x => x.Station.Contains(station);
+                filters.Add(predicate);
+            }
+
+            return filters;
+        }
+
+        private async Task<GeneralSummaryDto> GetSummaryProccesed(
         List<Expression<Func<VehicleCounterInformation, bool>>> filters = null,
         Func<IQueryable<VehicleCounterInformation>, IOrderedQueryable<VehicleCounterInformation>> orderBy = null,
-          string includeProperties = "")
+          string includeProperties = "", string station = null)
         {
             GeneralSummaryDto generalSummary = new GeneralSummaryDto();
 
             var result = await vehicleCounterRepository.GetAllAsyncWithFilters(filters, orderBy, includeProperties);
             List<(VehicleCounterInformation item, double amount)> mergeItems = new List<(VehicleCounterInformation, double)>();
+            List<Expression<Func<VehicleCounterWithAmount, bool>>> filtersForAmountGeneral = ValidatePredicateGetCollectedAllVehicleWithAmount(station);
+            var temporalIemsWithAmount = await vehicleCounterWithAmountRepository.GetAllAsyncWithFilters(filtersForAmountGeneral);
             foreach ( var item in result ) 
             {
-              List<Expression<Func<VehicleCounterWithAmount, bool>>> filtersForAmount = ValidatePredicateGetCollectedvehicleAmount(item.Station,item.Hour, item.Date);
-               var temporalIems= await vehicleCounterWithAmountRepository.GetAllAsyncWithFilters(filtersForAmount);
+                var temporalIems = temporalIemsWithAmount.Where(e => e.Station == item.Station && e.Hour == item.Hour && e.Date == item.Date).ToList();
                mergeItems.Add((item,temporalIems.Sum(t => t.Amount)));                  
             }
             generalSummary.TotalCarsGeneral = result.Sum(i => i.Quantity);
